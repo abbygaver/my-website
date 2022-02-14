@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,css"
   }
 }
