@@ -15,7 +15,8 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "mdb-ui-kit": "^3.10.2"
   },
   "nodemonConfig": {
     "ext": "js,html,css"

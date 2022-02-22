@@ -1,39 +1,90 @@
-body, html{
-    background-color: rgb(248, 221, 226);
-    height: 100%;
-    font-family: serif;
+body {
+    background-color: black;
+    font-family: verdana;
+    color: white;
+    font-size: 100%;
+    margin: 8em;
 }
 
-.nav{
+.social{
     position: absolute;
-    left: 0;
-    height: 100%;
-    width: 20%;
-    background-color: rgba(107, 67, 67, 0.5);
+    left: 90px;
+}
+
+.social-icon{
+    color: white;
+    border-style: solid;
+    padding: 10px;
+}
+
+.navbar{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.offcanvas{
+    color: black;
 }
 
 .nav-link{
+    color: black;
     text-decoration: none;
-    color: antiquewhite;
 }
 
-.nav-link:hover{
-    color: pink;
-}
-
-.hero-image{
-    background-image: linear-gradient(rgba(1, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/low_op_logo.png");
-    height: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-text{
-    text-align: center;
+.logo{
+    background-color: white;
     position: absolute;
-    top: 50%;
-    left: 35%;
+    top: 12px;
+    left: 9em;
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+}
+
+.my-logo{
+    width: 140%;
+    position: relative;
+    left: -30px;
+    top: -35px;
+}
+
+.main-content{
+    position: relative;
+    margin-top: 175px;
+    padding: 40px;
+}
+
+h1{
+    font-family: arial black;
+    font-size: 50px;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+h4{
+    margin-left: 45px;
+}
+
+p{
+    margin-left: 45px;
+}
+
+a{
     color: white;
+    text-decoration: none;
+}
+
+.footer{
+    color: white;
+    text-align: center;
 }
